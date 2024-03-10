@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Be Inspired</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="activity_random_quote_btn_random_quote">Be Inspired!</string>
+
+    <string name="service_quote_api_url">https://dummyjson.com/</string>
+</resources>

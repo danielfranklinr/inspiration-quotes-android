@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    ext {
+        // Android libraries versions
+        buildtools_version = "8.2.1"
+        appcompat_version = "1.6.1"
+        material_version = "1.11.0"
+        constraintlayout_version = "2.1.4"
+        navigation_version = "2.7.7"
+        retrofit_version = "2.9.0"
+        hilt_version = "2.48.1"
+        rxjava_version = "3.1.8"
+        rxandroid_version = "3.0.2"
+        gson_version = "2.10.1"
+        lifecycle_viewmodel_version = "2.7.0"
+
+        // test versions
+        junit_version = "4.13.2"
+        junit_ext_version = "1.1.5"
+        mockito_version = "5.7.0"
+        espresso_version = "3.5.1"
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:$buildtools_version"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
+    }
+
+
+}
+
+
